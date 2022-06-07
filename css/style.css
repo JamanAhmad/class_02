@@ -1,0 +1,45 @@
+
+	body{
+         margin:0;}
+         
+    section{
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: cover !important;
+        background-position:center !important;}
+
+	.kids 
+        {background: #0014ff;
+        background-image: url(../images/kids.jpg);
+         background-blend-mode: difference;}
+    .men 
+        {background: #4dc537;
+        background-image: url(../images/men.jpg);}
+  
+
+    .women
+        {background: #cb0798;
+        background-image: url(../images/women.jpg);}
+
+    .kidsplay 
+        {background: #6933b1;
+        background-image: url(../images/kidsplay.jpg);}
+         
+
+	h1 {
+        font-size: 50px;
+        color: white;
+        margin: 0;
+        font-family: 'Luckiest Guy', cursive;
+        letter-spacing: 3px;}
+    
+   .kids h1{color: #0bf5ca;}
+   .men h1{ color: black; }
+   .kidsplay h1{ color: #ff05d5; }
+
+	strong {
+        font-family: 'Permanent Marker', cursive;
+        font-weight:inherit;
+        font-size: 75px;}
